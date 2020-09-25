@@ -1,0 +1,5 @@
+numpy==1.18.4
+opencv_python==4.2.0.34
+imageio==2.9.0
+pandas==0.25.3
+Pillow==7.2.0
