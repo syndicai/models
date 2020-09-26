@@ -16,17 +16,25 @@
 
 ## Tensorflow
 
-- [**Animal Classifier**](/animal_classifier): Check spiecies using object detection algorithm [**`Seldon`**](https://seldon.io) **`Computer Vision`**
+- [**Animal Classifier**](https://github.com/syndicai/sample-animalclassifier): Check spiecies using object detection algorithm [**`Seldon`**](https://seldon.io) **`Computer Vision`**
 
 ## PyTorch
 
-- [**Answer Generator**](/ranswer_generator): GPT-2 algorithm for answers questions. [**`Cortex`**](https://www.cortex.dev) **`NLP`**
+- [**Answer Generator**](/ranswer_generator): still working on it...
+
+- [**Image Classifier**](/image_classifier_alexnext): still working on it...
+
+- [**Reading Comprehender**](/reading_comprehender): still working on it...
+
+- [**FasterRCNN Object Detector**](/object_detector_fasterrcnn): still working on it...
+
+<!-- - [**Answer Generator**](/ranswer_generator): GPT-2 algorithm for answers questions. [**`Cortex`**](https://www.cortex.dev) **`NLP`**
 
 - [**Image Classifier**](/image_classifier_alexnext): AlexNet Image classifier [**`Cortex`**](https://www.cortex.dev) **`Computer Vision`**
 
 - [**Reading Comprehender**](/reading_comprehender): Get answer for the question based on the provided text. [**`Cortex`**](https://www.cortex.dev) **`NLP`**
 
-- [**FasterRCNN Object Detector**](/object_detector_fasterrcnn): Locate and identify objects. [**`Cortex`**](https://www.cortex.dev) **`Computer Vision`**
+- [**FasterRCNN Object Detector**](/object_detector_fasterrcnn): Locate and identify objects. [**`Cortex`**](https://www.cortex.dev) **`Computer Vision`** -->
 
 ## OpenCV
 
