@@ -9,9 +9,9 @@ The idea of that algorithm is to convert colorful image to black-and-white one u
 
 
 ## Deploy 
-Deploy a model using [Syndicai](https://syndic.ai).
+Click a button to deploy a model with [Syndicai](https://syndicai.co).
 
-[![Syndicai-Deploy](https://laskowskidesign.com/sai/syndicai-deploy-button.svg)]()
+[![Syndicai-Deploy](https://raw.githubusercontent.com/syndicai/brand/main/button/deploy.svg)](https://app.syndicai.co/newModel?repository=https://github.com/syndicai/models/opencv/black_and_white)
 
 
 
