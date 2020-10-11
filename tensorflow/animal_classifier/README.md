@@ -9,9 +9,9 @@ The main of the algorthm is to check the species of the animal using object dete
 
 
 ## Deploy 
-Deploy a model using [Syndicai](https://syndic.ai).
+Click a button to deploy a model with [Syndicai](https://syndicai.co).
 
-[![Syndicai-Deploy](https://laskowskidesign.com/sai/syndicai-deploy-button.svg)]()
+[![Syndicai-Deploy](https://raw.githubusercontent.com/syndicai/brand/main/button/deploy.svg)](https://app.syndicai.co/newModel?repository=https://github.com/syndicai/models/sample-animalclassifier)
 
 
 
