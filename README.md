@@ -29,7 +29,7 @@ Following repository consists of sample models ready-made for hosting with [Synd
 
 ## Keras
 
-- [**Teachable Machine**](/keras/teachable_machine): Image classifier for waste sorting [**`Seldon`**](https://seldon.io) **`Computer Vision`**
+- [**Teachable Machine**](/keras/teachable_machine): Image classifier for waste sorting [**`Keras`**](https://keras.io) **`Computer Vision`**
 
 ## OpenCV
 
