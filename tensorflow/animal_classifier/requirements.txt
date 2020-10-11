@@ -1,4 +1,4 @@
-tensorflow==1.15.0
+tensorflow==1.15.4
 pylab-sdk==1.1.2
 numpy==1.18.2
 Pillow==2.2.1
