@@ -9,7 +9,7 @@ import tensorflow as tf
 from PIL import Image
 from helpers import download_model
 
-models_url = ''
+models_url = 'https://www.dropbox.com/s/emee1vxmoch4sbu/models.zip?raw=1'
 checkpoint = 'mobilenet_v2_1.0_224'
 
 
