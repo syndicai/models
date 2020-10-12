@@ -16,6 +16,10 @@
 Following repository consists of sample models ready-made for hosting with [Syndicai Platform](https://app.syndicai.co). Use **Syndicai Deploy** button to deploy a model with one-click.
 
 
+## Tensorflow
+
+- [**Animal Classifier**](/tensorflow/animal_classifier): Classify animal species.  [**`Seldon`**](https://seldon.io) **`Computer Vision`**
+
 
 ## PyTorch
 
