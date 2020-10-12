@@ -4,7 +4,7 @@ _seldon
 docker-compose.yaml
 
 # Models
-tensorflow/animal_classifier
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

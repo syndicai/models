@@ -7,12 +7,16 @@ import numpy as np
 import tensorflow as tf
 
 from PIL import Image
+from helpers import download_model
 
+models_url = ''
 checkpoint = 'mobilenet_v2_1.0_224'
+
 
 class syndicai(object):
     def __init__(self):
         self._model = None
+        download_model(models_url, os.getcwd())
         sys.path.append(os.path.abspath('./models/tensorflow/research/slim'))        
 
     def predict(self, X, features_names=None):
