@@ -11,7 +11,7 @@ Object detection algorithm for species classification. For this task [Tensorflow
 ## Deploy 
 Click a button to deploy a model with [Syndicai](https://syndicai.co).
 
-[![Syndicai-Deploy](https://raw.githubusercontent.com/syndicai/brand/main/button/deploy.svg)](https://app.syndicai.co/newModel?repository=https://github.com/syndicai/models/sample-animalclassifier)
+[![Syndicai-Deploy](https://raw.githubusercontent.com/syndicai/brand/main/button/deploy.svg)](https://app.syndicai.co/newModel?repository=https://github.com/syndicai/models/tree/master/tensorflow/animal_classifier)
 
 
 
