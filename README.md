@@ -23,9 +23,11 @@ Following repository consists of sample models ready-made for hosting with [Synd
 
 ## PyTorch
 
+- [**Yolo V5**](/pytorch/yolov5): Object detection and classification. [**`Seldon`**](https://seldon.io) **`Computer Vision`**
+
 - [**Answer Generator**](/pytorch/answer_generator): GPT-2 algorithm for answers questions. [**`Cortex`**](https://www.cortex.dev) **`NLP`**
 
-- [**Image Classifier**](/pytorch/image_classifier_alexnext): AlexNet Image classifier [**`Cortex`**](https://www.cortex.dev) **`Computer Vision`**
+- [**Image Classifier**](/pytorch/image_classifier_alexnet): AlexNet Image classifier [**`Cortex`**](https://www.cortex.dev) **`Computer Vision`**
 
 - [**Reading Comprehender**](/pytorch/reading_comprehender): Get answer for the question based on the provided text. [**`Cortex`**](https://www.cortex.dev) **`NLP`**
 
@@ -33,7 +35,7 @@ Following repository consists of sample models ready-made for hosting with [Synd
 
 ## Keras
 
-- [**Teachable Machine**](/keras/teachable_machine): Image classifier for waste sorting [**`Keras`**](https://keras.io) **`Computer Vision`**
+- [**Teachable Machine**](/keras/teachable_machine): Image classifier for waste sorting [**`Seldon`**](https://seldon.io) **`Computer Vision`**
 
 ## OpenCV
 
@@ -41,4 +43,4 @@ Following repository consists of sample models ready-made for hosting with [Synd
 
 
 ## Custom
-If you want to deploy your own model see the [Model Preparation]() section in Docs.
+If you want to deploy your own model see the [Model Preparation](https://docs.syndic.ai/develop) section in Docs.
