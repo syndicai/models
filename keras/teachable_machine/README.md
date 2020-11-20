@@ -16,7 +16,7 @@ In order to run your own model trained with [Image](https://teachablemachine.wit
 ## Deploy 
 Click a button to deploy a model with [Syndicai](https://syndicai.co).
 
-[![Syndicai-Deploy](https://raw.githubusercontent.com/syndicai/brand/main/button/deploy.svg)](https://app.syndicai.co/newModel?repository=https://github.com/syndicai/models/keras/teachable_machine)
+[![Syndicai-Deploy](https://raw.githubusercontent.com/syndicai/brand/main/button/deploy.svg)](https://app.syndicai.co/newModel?repository=https://github.com/syndicai/models/tree/master/keras/teachable_machine)
 
 
 ## Run Locally

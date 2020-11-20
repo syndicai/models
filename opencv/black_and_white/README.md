@@ -11,7 +11,7 @@ The idea of that algorithm is to convert colorful image to black-and-white one u
 ## Deploy 
 Click a button to deploy a model with [Syndicai](https://syndicai.co).
 
-[![Syndicai-Deploy](https://raw.githubusercontent.com/syndicai/brand/main/button/deploy.svg)](https://app.syndicai.co/newModel?repository=https://github.com/syndicai/models/opencv/black_and_white)
+[![Syndicai-Deploy](https://raw.githubusercontent.com/syndicai/brand/main/button/deploy.svg)](https://app.syndicai.co/newModel?repository=https://github.com/syndicai/models/tree/master/opencv/black_and_white)
 
 
 

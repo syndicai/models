@@ -1,10 +1,12 @@
 # engine
 _cortex
 _seldon
+_new/
 docker-compose.yaml
 
 # Models
 tensorflow/animal_classifier/models
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
