@@ -1,7 +1,7 @@
 # engine
 _cortex
 _seldon
-_new/
+_new
 docker-compose.yaml
 
 # Models
