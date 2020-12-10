@@ -25,6 +25,8 @@ Following repository consists of sample models ready-made for hosting with [Synd
 
 - [**Yolo V5**](/pytorch/yolov5): Object detection and classification. [**`Seldon`**](https://seldon.io) **`Computer Vision`**
 
+- [**GPT-2**](/pytorch/gpt2): GPT-2 algorithm for answers questions. [**`Seldon`**](https://www.seldon.io) **`NLP`**
+
 - [**Answer Generator**](/pytorch/answer_generator): GPT-2 algorithm for answers questions. [**`Cortex`**](https://www.cortex.dev) **`NLP`**
 
 - [**Image Classifier**](/pytorch/image_classifier_alexnet): AlexNet Image classifier [**`Cortex`**](https://www.cortex.dev) **`Computer Vision`**
