@@ -11,7 +11,7 @@ Click a button to deploy a model with [Syndicai](https://syndicai.co).
 [![Syndicai-Deploy](https://raw.githubusercontent.com/syndicai/brand/main/button/deploy.svg)](https://app.syndicai.co/newModel?repository=https://github.com/syndicai/models/tree/master/tensorflow/depth_estimator)
 
 ## Example
-| input | style
+| input | output |
 | --- | --- |
 | <img src="sample_data/input.jpeg" width="410"> | <img src="sample_data/output.png" width="410"> |
 
