@@ -33,6 +33,8 @@ Following repository consists of sample models ready-made for hosting with [Synd
 
 - [**Super resolution**](/tensorflow/super_resolution): Enhanced GAN Super Resolution. **`Computer Vision`**
 
+- [**Depth Estimator**](/tensorflow/depth_estimator): Mobile CNN for monocular depth estimation. **`Computer Vision`**
+
 
 ## Keras
 
