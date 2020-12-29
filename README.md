@@ -66,9 +66,9 @@ Following repository consists of sample models ready-made for hosting with [Synd
 
 ## Cortex
 
-- [**Answer generator**](/cortex/answer_generator): GPT-2 algorithm for answers questions. [**`Cortex`**](https://www.cortex.dev) **`NLP`**
+- [**Answer generator**](/cortex/answer_generator): GPT-2 algorithm for answers questions. **`NLP`**
 
-- [**Object detector**](/cortex/object_detector): FasterRCNN object detection algorithm. [**`Cortex`**](https://www.cortex.dev) **`Computer Vision`**
+- [**Object detector**](/cortex/object_detector): FasterRCNN object detection algorithm. **`Computer Vision`**
 
 
 
