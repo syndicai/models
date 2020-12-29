@@ -8,7 +8,7 @@ Faster R-CNN has two networks: region proposal network (RPN) for generating regi
 ## Deploy 
 Click a button to deploy a model with [Syndicai](https://syndicai.co).
 
-[![Syndicai-Deploy](https://raw.githubusercontent.com/syndicai/brand/main/button/deploy.svg)](https://app.syndicai.co/newModel?repository=https://github.com/syndicai/models/tree/master/cortex/object_detector_fasterrcnn)
+[![Syndicai-Deploy](https://raw.githubusercontent.com/syndicai/brand/main/button/deploy.svg)](https://app.syndicai.co/newModel?repository=https://github.com/syndicai/models/tree/master/cortex/object_detector)
 
 
 
