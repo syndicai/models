@@ -40,6 +40,8 @@ Following repository consists of sample models ready-made for hosting with [Synd
 
 - [**Teachable Machine**](/keras/teachable_machine): Image classifier for waste sorting **`Computer Vision`**
 
+- [**Face Mask Detector**](/keras/face_mask_detector): MobileNetV2 mast detection algortihm. **`Computer Vision`**
+
 
 ## OpenCV
 
