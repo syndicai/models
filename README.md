@@ -70,7 +70,7 @@ Following repository consists of sample models ready-made for hosting with [Synd
 
 ## Seldon
 
-- [**Object detector**](/seldon/object_detector): MobileNet V2 object detection algorithm. [**`Seldon`**](https://www.seldon.io) **`Computer Vision`**
+- [**Object detector**](/seldon/object_detector): MobileNet V2 object detection algorithm. **`Computer Vision`**
 
-- [**YoloV5**](/seldon/yolov5): YoloV5 object detection and classification. [**`Seldon`**](https://www.seldon.io) **`Computer Vision`**
+- [**YoloV5**](/seldon/yolov5): YoloV5 object detection and classification. **`Computer Vision`**
 

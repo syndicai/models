@@ -13,7 +13,7 @@ Click a button to deploy a model with [Syndicai](https://syndicai.co).
 ## Example
 | input | style | output |
 | --- | --- | --- |
-| <img src="sample_data/input.jpg"> | <img src="sample_data/style.jpg"> | <img src="sample_data/output.png"> |
+| <img src="sample_data/input.jpg" width="260"> | <img src="sample_data/style.jpg" width="260"> | <img src="sample_data/output.png" width="260"> |
 
 
 ## Reference
