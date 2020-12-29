@@ -5,7 +5,6 @@
 Analysis function under the DeepFace interface is used to find demography of a face. Model returns attribute such as age, gender, facial expression, and race predictions. 
 
 
-
 ## Deploy 
 Click a button to deploy a model with [Syndicai](https://syndicai.co).
 
