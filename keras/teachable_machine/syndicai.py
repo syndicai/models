@@ -10,12 +10,13 @@ model_path = 'data/keras_model.h5'
 labels_path = 'data/labels.txt'
 
 
-class syndicai(object):
+class PythonPredictor:
     
-    def __init__(self):
-        self._model = None
+    def __init__(self, config):
+        # Load the model
+        self.model = tensorflow.keras.models.load_model(model_path)
 
-    def predict(self, X, features_names=None):
+    def predict(self, payload):
         """
         Run a model in order to predict what's
 
@@ -24,13 +25,10 @@ class syndicai(object):
         """
 
         # covert image to base64
-        input_image = io.BytesIO(base64.b64decode(X))
+        input_image = io.BytesIO(base64.b64decode(payload["base64"]))
 
         # Disable scientific notation for clarity
         np.set_printoptions(suppress=True)
-
-        # Load the model
-        model = tensorflow.keras.models.load_model(model_path)
 
         # Create the array of the right shape to feed into the keras model
         # The 'length' or number of images you can put into the array is
@@ -58,7 +56,7 @@ class syndicai(object):
         data[0] = normalized_image_array
 
         # run the inference
-        prediction = model.predict(data).tolist()[0]
+        prediction = self.model.predict(data).tolist()[0]
 
         # combine output with provided labels, 
         # and convert prediciton to percentage
@@ -67,8 +65,3 @@ class syndicai(object):
             output[labels[x]] = '{:.2f}%'.format(prediction[x]*100)
 
         return [output]
-
-
-    def metrics(self):
-        return [{"type": "COUNTER", "key": "mycounter", "value": 1}]
-
