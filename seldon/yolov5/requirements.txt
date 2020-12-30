@@ -1,0 +1,8 @@
+opencv-python==4.2.0.34
+pillow
+pyyaml
+tqdm
+torch
+matplotlib
+torchvision
+scipy

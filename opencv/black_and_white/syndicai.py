@@ -7,12 +7,15 @@ from cv2 import cv2
 from imageio import imread
 
 
-class syndicai(object):
+class PythonPredictor:
 
-    def predict(self, X, features_names=None):
+    def __init__(self, config):
+        pass
+
+    def predict(self, payload):
 
         # base64 to OpenCV Image
-        img_array = imread(io.BytesIO(base64.b64decode(X)))
+        img_array = imread(io.BytesIO(base64.b64decode(payload["base64"])))
         img = cv2.cvtColor(img_array, cv2.COLOR_RGB2BGR)
 
         # change color image to black & white

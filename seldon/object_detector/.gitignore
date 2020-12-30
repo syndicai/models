@@ -1,0 +1,3 @@
+models/mobilenet/
+models/tensorflow/
+models/imagenet-simple-labels.json
