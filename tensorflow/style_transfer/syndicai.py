@@ -23,7 +23,7 @@ class PythonPredictor:
 
     def predict(self, payload):
         # Define content image
-        content_image_url = payload["image_url"]
+        content_image_url = payload["url"]
 
         # Load images
         content_img_size = (500, 500)
