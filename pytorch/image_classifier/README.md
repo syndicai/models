@@ -2,7 +2,7 @@
 [![PyTorch](https://img.shields.io/badge/Framework-PyTorch-79FFE1)](https://pytorch.org)
 ![Computer Vision](https://img.shields.io/badge/Type-Computer%20Vision-79FFE1)
 
-The reading comprehension model is able to answer question-based on the provided text. 
+AlexNet is the name of a convolutional neural network (CNN) architecture, designed by Alex Krizhevsky. AlexNet contained eight layers; the first five were convolutional layers, some of them followed by max-pooling layers, and the last three were fully connected layers. It used the non-saturating ReLU activation function, which showed improved training performance over tanh and sigmoid.
 
 
 ## Deploy 
