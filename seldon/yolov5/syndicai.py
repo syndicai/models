@@ -1,6 +1,6 @@
 import torch
 from PIL import Image 
-from helpers import draw_box, url_to_img, img_to_bytes
+from helpers import url_to_img, img_to_bytes
 
 
 class syndicai:
@@ -15,6 +15,7 @@ class syndicai:
         # Inference
         img = url_to_img(X)
         results = self.model(img)
+        
+        results.render()  # updates results.imgs with boxes and labels
 
-        # Draw boxes
-        return img_to_bytes(box_img)
+        return img_to_bytes(Image.fromarray(results.imgs[0]))

@@ -25,8 +25,10 @@ docker run -v ${PWD}:/mnt/workspace:ro -p 8000:8000 syndicai/engine:python3.7 lo
 
 # Run Model
 curl -X POST http://localhost:8000/predict \
-  -H 'content-type: application/json' \
-  -d @sample_data/sample_input.json
+  --header 'Content-Type: application/json' \
+  --data '{
+	"strData": "https://images.pexels.com/photos/2083866/pexels-photo-2083866.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+}'
 ```
 
 ## Reference
