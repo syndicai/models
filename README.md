@@ -4,10 +4,10 @@
   <a aria-label="Syndicai" href="https://syndicai.co/">
     <img alt="" src="https://img.shields.io/badge/MADE%20FOR%20DISRUPTORS-000000.svg?style=for-the-badge&labelColor=000">
   </a>
-  <a aria-label="Docs" href="https://docs.syndic.ai">
+  <a aria-label="Docs" href="https://docs.syndicai.co">
     <img alt="" src="https://img.shields.io/badge/Documentation-000.svg?style=for-the-badge&labelColor=000">
   </a>
-  <a aria-label="Join the community on GitHub" href="https://join.slack.com/t/syndicai/shared_invite/zt-eqbfjmyo-BCNw0gDryzU1A_6GH7xyYw">
+  <a aria-label="Join the community on GitHub" href="https://syndicai.slack.com">
     <img alt="" src="https://img.shields.io/badge/Join%20the%20community-blue.svg?style=for-the-badge&logo=Slack&labelColor=000000&logoWidth=20">
   </a>
 </p>
