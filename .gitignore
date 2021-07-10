@@ -3,6 +3,8 @@ _new
 _wrappers
 docker-compose.yaml
 
+status.txt
+
 # models
 pytorch/text_comprehender
 
