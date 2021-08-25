@@ -1,5 +1,5 @@
 Cython
-tensorflow==1.5.1
+tensorflow==2.5.1
 scikit_image==0.16.2
 matplotlib==3.1.1
 opencv_python==4.1.1.26
