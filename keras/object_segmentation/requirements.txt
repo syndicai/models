@@ -2,7 +2,7 @@ Cython
 tensorflow==1.5.1
 scikit_image==0.16.2
 matplotlib==3.1.1
-opencv_python==4.1.1.26
+opencv_python==4.2.0.32
 h5py==2.10.0
 scipy==1.0.0
 Keras==2.1.5
