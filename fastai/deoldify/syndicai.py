@@ -1,4 +1,5 @@
 # This must be the first call in order to work properly!
+import os
 import io
 import base64
 import urllib.request
@@ -17,16 +18,23 @@ import warnings
 warnings.filterwarnings("ignore", category=UserWarning, message=".*?Your .*? set is empty.*?")
 
 
-url = "https://data.deepai.org/deoldify/ColorizeArtistic_gen.pth"
-model_path = "./models/ColorizeArtistic_gen.pth"
+artistic=True
 
 
 class PythonPredictor:
     
     def __init__(self, config):
-        if not os.path.exists("models/ColorizeArtistic_gen.pth"):
+        if artistic:
+            url = "https://data.deepai.org/deoldify/ColorizeArtistic_gen.pth"
+            model_path = "./models/ColorizeArtistic_gen.pth"
+        else:
+            url = "https://www.dropbox.com/s/usf7uifrctqw9rl/ColorizeStable_gen.pth?dl=1"
+            model_path = "./models/ColorizeStable_gen.pth"
+
+        if not os.path.exists(model_path):
             urllib.request.urlretrieve(url, model_path)
-        self.colorizer = get_image_colorizer(artistic=True)
+            
+        self.colorizer = get_image_colorizer(artistic=artistic)
     
     def predict(self, payload):
         
