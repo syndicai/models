@@ -18,7 +18,7 @@ Following repository consists of sample models ready-made for hosting with [Synd
 
 ## PyTorch
 
-- [**GPT-2**](/pytorch/gpt2): GPT-2 algorithm for answers questions. **`NLP`**
+- [**GPT-2**](/pytorch/gpt2): A GPT-2 algorithm for answers questions. **`NLP`**
 
 - [**Reading Comprehender**](/pytorch/reading_comprehender): Get answer for the question based on the provided text. **`NLP`**
 
