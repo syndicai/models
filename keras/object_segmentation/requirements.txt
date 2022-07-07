@@ -8,5 +8,5 @@ scipy==1.0.0
 Keras==2.1.5
 numpy==1.17.4
 ipython==7.10.1
-Pillow==6.2.1
+Pillow==9.0.1
 pycocotools==2.0.0
