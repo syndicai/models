@@ -1,8 +1,8 @@
 import torch
 import re
-from transformers import AutoTokenizer, ViTFeatureExtractor, VisionEncoderDecoderModel 
+from transformers import AutoTokenizer, ViTFeatureExtractor, VisionEncoderDecoderModel
 
-from helpers import url_to_img
+from model.helpers import url_to_img
 
 
 device = "cpu"
@@ -33,4 +33,4 @@ class ImageCaptioning:
         clean_text = lambda x: x.replace('<|endoftext|>','').split('\n')[0]
         caption_ids = self.model.generate(image, max_length = 64)[0]
         caption_text = clean_text(self.tokenizer.decode(caption_ids))
-        return caption_text 
+        return caption_text
