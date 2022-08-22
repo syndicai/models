@@ -31,6 +31,6 @@ class ImageCaptioning:
         image = url_to_img(image_url)
         image = self.feature_extractor(image, return_tensors="pt").pixel_values.to(device)
         clean_text = lambda x: x.replace('<|endoftext|>','').split('\n')[0]
-        caption_ids = self.model.generate(image, max_length = 32)[0]
+        caption_ids = self.model.generate(image, max_length = 64)[0]
         caption_text = clean_text(self.tokenizer.decode(caption_ids))
         return caption_text
