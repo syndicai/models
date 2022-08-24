@@ -1,6 +1,5 @@
 from model.image_captioning import ImageCaptioning
 
-
 class PythonPredictor:
 
     def __init__(self, config):
@@ -10,3 +9,4 @@ class PythonPredictor:
         url = payload["url"]
         output = self.model.run(url)
         return output
+    
